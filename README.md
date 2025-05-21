@@ -63,9 +63,7 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 
 - **จีน** มียอดขายสูงที่สุด
 - รองลงมาคือ **ญี่ปุ่น**
-- บ่งชี้โอกาสในตลาดเอเชีย
-
-📷 ![Revenue by Region](images/revenue_by_region.png)
+![image](https://github.com/user-attachments/assets/51fab944-c38b-4dcd-993f-ab027b6bf62b)
 
 ---
 
@@ -76,7 +74,8 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 - Equipment → พีคใน May, November  
 - Footwear → พีคใน December, February  
 
-📷 ![Category Revenue by Month](images/revenue_by_month.png)
+![image](https://github.com/user-attachments/assets/cd30a31b-4f5f-4c49-a761-2166f3211c13)
+
 
 ---
 
@@ -86,7 +85,8 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 - Outerwear และ Accessories สร้างรายได้ดี
 
 
-📷 ![Sub-category Revenue](images/subcategory_revenue.png)
+![image](https://github.com/user-attachments/assets/180322e5-56bb-42c8-acdd-16e76986803b)
+
 
 ---
 
@@ -94,9 +94,10 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 วิเคราะห์จากจำนวน Units Sold
 
 - *Equipment* และ *Apparel* ขายดีที่สุด
-- *Footwear* มีจำนวนสินค้ามากแต่ยอดขายน้อย → ควรปรับกลยุทธ์
+- *Footwear* มีจำนวนสินค้ามากแต่ยอดขายน้อย 
 
-📷 ![Units Sold by Category](images/units_sold_by_category.png)
+![image](https://github.com/user-attachments/assets/73fe57cb-d34a-4eed-b9f2-4ef08dcdc2b1)
+
 
 ---
 
@@ -105,7 +106,8 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 
 - ทุกหมวดสินค้า: ยอดขาย **ออนไลน์** มากกว่าหน้าร้าน
 
-📷 ![Online vs Offline](images/online_vs_offline.png)
+![image](https://github.com/user-attachments/assets/0a93f615-ecf7-4e6c-b59c-caa1792ac98d)
+
 
 ---
 
@@ -115,9 +117,17 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 - Budget / Mid-Range / Premium
 
 
-📷 ![Price Tier](images/price_tier.png)
+![image](https://github.com/user-attachments/assets/7de52e14-6854-421e-94f6-7caf404e6170)
+
 
 ---
 
+🧾 7. กำไรของแต่ละหมวดสินค้า 
+- Equipment เป็นหมวดสินค้าที่สร้างกำไรได้มากที่สุด
+
+- Apparel ตามมาเป็นอันดับสอง
+- Footwear มีกำไรต่ำที่สุด แม้จะมีหลายผลิตภัณฑ์ย่อย
+
+![image](https://github.com/user-attachments/assets/920292da-8f8e-430f-99e7-484abf4f0ee4)
 
 
