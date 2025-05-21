@@ -23,3 +23,13 @@ df.isnull().sum()
 df = df.drop_duplicates()
 ```
 #### 2.การสร้างคุณลักษณะใหม่ (Feature Engineering):
+### 1️⃣ `Total_Orders` (จำนวนคำสั่งซื้อรวมต่อเดือน)
+- ทำการนับจำนวนคำสั่งซื้อ (จำนวนแถว) ในแต่ละเดือน
+- เพิ่มเป็นฟีเจอร์ใหม่ใน DataFrame
+- ใช้สำหรับวิเคราะห์แนวโน้มจำนวนออเดอร์ในแต่ละช่วงเวลา
+
+```python
+df['Order_Month'] = pd.to_datetime(df['Month']).dt.to_period('M')
+monthly_orders = df.groupby('Order_Month').size().reset_index(name='Total_Orders')
+df = df.merge(monthly_orders, on='Order_Month', how='left')
+```
