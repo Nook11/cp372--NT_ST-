@@ -12,7 +12,7 @@ Nike Global Sales ข้อมูลปี 2024 - [Data Set Download](./Data_Set
 * การเติบโตของเเต่ละไตรมาส
 * ยอดขายของเเต่ละเดือน
 # การเตรียมข้อมูล (Data Preparation) 
-#### 1.การทำความสะอาดข้อมูล (Data Cleaning) :
+### 1.การทำความสะอาดข้อมูล (Data Cleaning) :
 ขั้นตอน: โหลดข้อมูล: ใช้ pandas.read_csv() เพื่ออ่านไฟล์  nike_sales_2024_pj.csv
 * ตวรจสอบค่าที่ว่าง
 ```python
@@ -22,7 +22,7 @@ df.isnull().sum()
 ```python
 df = df.drop_duplicates()
 ```
-#### 2.การสร้างคุณลักษณะใหม่ (Feature Engineering):
+### 2.การสร้างคุณลักษณะใหม่ (Feature Engineering):
 1️⃣ `Total_Orders` (จำนวนคำสั่งซื้อรวมต่อเดือน)
 - ทำการนับจำนวนคำสั่งซื้อ (จำนวนแถว) ในแต่ละเดือน
 - เพิ่มเป็นฟีเจอร์ใหม่ใน DataFrame
@@ -34,8 +34,9 @@ monthly_orders = df['Month'].value_counts().rename_axis('Month').reset_index(nam
 df = df.merge(monthly_orders, on='Month', how='left')
 df[['Month', 'Total_Orders']].drop_duplicates().sort_values('Month')
 ```
-## สร้างโดยใช้ Create Calculated Field
-![image](https://github.com/user-attachments/assets/21235e3a-4dd0-4b57-8638-e6bde24fa5c7)
+### สร้างโดยใช้ Create Calculated Field
+![image](https://github.com/user-attachments/assets/004f0d76-c507-45f8-8e49-4c7f5a694b9a)
+
 
 
 2️⃣ Profit (กำไร)
