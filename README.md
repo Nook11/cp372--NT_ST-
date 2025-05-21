@@ -29,7 +29,8 @@ df = df.drop_duplicates()
 - ใช้สำหรับวิเคราะห์แนวโน้มจำนวนออเดอร์ในแต่ละช่วงเวลา
 
 ```python
-df['Order_Month'] = pd.to_datetime(df['Month']).dt.to_period('M')
-monthly_orders = df.groupby('Order_Month').size().reset_index(name='Total_Orders')
-df = df.merge(monthly_orders, on='Order_Month', how='left')
+# สร้างตารางสรุปคำสั่งซื้อทั้งหมดในแต่ละเดือน
+monthly_orders = df['Month'].value_counts().rename_axis('Month').reset_index(name='Total_Orders')
+df = df.merge(monthly_orders, on='Month', how='left')
+df[['Month', 'Total_Orders']].drop_duplicates().sort_values('Month')
 ```
