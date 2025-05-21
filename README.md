@@ -12,5 +12,5 @@ Nike Global Sales ข้อมูลปี 2024 - [Data Set Download](./Data_Set
 * การเติบโตของเเต่ละไตรมาส
 * ยอดขายของเเต่ละเดือน
 # การเตรียมข้อมูล (Data Preparation) 
-1.การทำความสะอาดข้อมูล (Data Cleaning) :
+#### 1.การทำความสะอาดข้อมูล (Data Cleaning) :
 ขั้นตอน: โหลดข้อมูล: ใช้ pandas.read_csv() เพื่ออ่านไฟล์ nike_sales_2024_pj.csv
