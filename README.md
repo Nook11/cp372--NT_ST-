@@ -35,7 +35,8 @@ df = df.merge(monthly_orders, on='Month', how='left')
 df[['Month', 'Total_Orders']].drop_duplicates().sort_values('Month')
 ```
 ## สร้างโดยใช้ Create Calculated Field
-![image](https://github.com/user-attachments/assets/57d4ac12-fd5d-4757-913e-e28cb265cd87)
+![image](https://github.com/user-attachments/assets/21235e3a-4dd0-4b57-8638-e6bde24fa5c7)
+
 
 2️⃣ Profit (กำไร)
 คำนวณกำไรรวมของสินค้าแต่ละรายการ
