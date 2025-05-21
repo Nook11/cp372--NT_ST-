@@ -57,5 +57,6 @@ Online Units = Units Sold * (Online Sales Percentage / 100)
 ```python
 Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 ```
+# การสำรวจข้อมูลเบื้องต้น (Exploratory Data Analysis, EDA)
 
 
