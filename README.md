@@ -34,3 +34,10 @@ monthly_orders = df['Month'].value_counts().rename_axis('Month').reset_index(nam
 df = df.merge(monthly_orders, on='Month', how='left')
 df[['Month', 'Total_Orders']].drop_duplicates().sort_values('Month')
 ```
+2️⃣ Profit (กำไร)
+คำนวณกำไรรวมของสินค้าแต่ละรายการ
+
+สมมุติฐาน: ต้นทุนสินค้า = 60% ของราคาขายปลีก → กำไรต่อหน่วย = 40%
+
+สูตร: ```python
+Online_Units = Units_Sold * (Online_Sales_Percentage / 100)
