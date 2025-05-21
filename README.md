@@ -22,3 +22,4 @@ df.isnull().sum()
 ```python
 df = df.drop_duplicates()
 ```
+#### 2.การสร้างคุณลักษณะใหม่ (Feature Engineering):
