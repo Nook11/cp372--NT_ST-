@@ -23,7 +23,7 @@ df.isnull().sum()
 df = df.drop_duplicates()
 ```
 #### 2.การสร้างคุณลักษณะใหม่ (Feature Engineering):
-### 1️⃣ `Total_Orders` (จำนวนคำสั่งซื้อรวมต่อเดือน)
+1️⃣ `Total_Orders` (จำนวนคำสั่งซื้อรวมต่อเดือน)
 - ทำการนับจำนวนคำสั่งซื้อ (จำนวนแถว) ในแต่ละเดือน
 - เพิ่มเป็นฟีเจอร์ใหม่ใน DataFrame
 - ใช้สำหรับวิเคราะห์แนวโน้มจำนวนออเดอร์ในแต่ละช่วงเวลา
@@ -34,10 +34,10 @@ monthly_orders = df['Month'].value_counts().rename_axis('Month').reset_index(nam
 df = df.merge(monthly_orders, on='Month', how='left')
 df[['Month', 'Total_Orders']].drop_duplicates().sort_values('Month')
 ```
+## สร้างโดยใช้ Create Calculated Field
 2️⃣ Profit (กำไร)
 คำนวณกำไรรวมของสินค้าแต่ละรายการ
-
 สมมุติฐาน: ต้นทุนสินค้า = 60% ของราคาขายปลีก → กำไรต่อหน่วย = 40%
-
-สูตร: ```python
+สูตร: 
+```python
 Online_Units = Units_Sold * (Online_Sales_Percentage / 100)
