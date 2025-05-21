@@ -1,5 +1,8 @@
 # 📊 Nike Global Sales Analysis (2024)
 วิเคราะห์ยอดขายสินค้า Nike ปี 2024 โดยเน้นการเพิ่มยอดขายผ่านการสำรวจเชิงลึกด้วย Tableau การคำนวณกำไร และการวิเคราะห์ข้อมูล
+Analysis Tabbleau [Download](./Data_Set_nike_sales_2024.xlsx)
+Presentation Video [Download](./Data_Set_nike_sales_2024.xlsx)
+Doccument ฉบับเต็ม [Download](./Data_Set_nike_sales_2024.xlsx)
 ## Data Set
 Nike Global Sales ข้อมูลปี 2024 - [Data Set Download](./Data_Set_nike_sales_2024.xlsx)
 ## Problem Statement
