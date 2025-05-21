@@ -37,12 +37,17 @@ df[['Month', 'Total_Orders']].drop_duplicates().sort_values('Month')
 ### สร้างโดยใช้ Create Calculated Field
 ![image](https://github.com/user-attachments/assets/004f0d76-c507-45f8-8e49-4c7f5a694b9a)
 
-
-
 2️⃣ Profit (กำไร)
 คำนวณกำไรรวมของสินค้าแต่ละรายการ
 สมมุติฐาน: ต้นทุนสินค้า = 60% ของราคาขายปลีก → กำไรต่อหน่วย = 40%
 สูตร: 
 ```python
+Profit = (Retail Price * 0.4) * Units Sold
+```
+3️⃣ Online_Units (จำนวนสินค้าที่ขายได้ทางออนไลน์)
+ใช้ Online_Sales_Percentage คูณกับยอดขายทั้งหมด (Units_Sold)
+สูตร:
+```python
 Online Units = Units Sold * (Online Sales Percentage / 100)
 ```
+
