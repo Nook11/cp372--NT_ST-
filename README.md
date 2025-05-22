@@ -1,6 +1,6 @@
  # 📊 Nike Global Sales Analysis (2024) Review
 วิเคราะห์ยอดขายสินค้า Nike ปี 2024 โดยเน้นการเพิ่มยอดขายผ่านการสำรวจเชิงลึกด้วย Tableau การคำนวณกำไร และการวิเคราะห์ข้อมูล
-- Project Canvas    [Download](https://www.canva.com/design/DAGnsgO9XyY/XSB2zvyN07j4xjReBXVdtA/edit?utm_content=DAGnsgO9XyY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)   (https://www.canva.com/design/DAGnsgO9XyY/XSB2zvyN07j4xjReBXVdtA/edit?utm_content=DAGnsgO9XyY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Project Canvas    [Download](https://www.canva.com/design/DAGnsgO9XyY/XSB2zvyN07j4xjReBXVdtA/edit?utm_content=DAGnsgO9XyY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
 - Analysis Tabbleau [Download](./Data_Set_nike_sales_2024.xlsx)
 - Presentation Video [Download](./Data_Set_nike_sales_2024.xlsx)
 - Doccument ฉบับเต็ม [Download](./Data_Set_nike_sales_2024.xlsx)
