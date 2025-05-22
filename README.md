@@ -66,7 +66,8 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 
 - **จีน** มียอดขายสูงที่สุด
 - รองลงมาคือ **ญี่ปุ่น**
-![image](https://github.com/user-attachments/assets/51fab944-c38b-4dcd-993f-ab027b6bf62b)
+![image](https://github.com/user-attachments/assets/b3e4fd90-ae62-4ea9-8eb1-b6c852fc307d)
+
 
 ---
 
