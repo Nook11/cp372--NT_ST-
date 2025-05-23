@@ -93,7 +93,8 @@ Offline Units = Units_Sold * (1 - (Online Sales Percentage / 100))
 - Outerwear และ Accessories สร้างรายได้ดี
 
 
-![image](https://github.com/user-attachments/assets/180322e5-56bb-42c8-acdd-16e76986803b)
+![image](https://github.com/user-attachments/assets/9d3ac011-6a8f-492f-b204-9f769e1dce2f)
+
 
 
 ---
