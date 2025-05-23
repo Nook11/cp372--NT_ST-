@@ -3,7 +3,7 @@
 - Project Canvas    [Download](https://www.canva.com/design/DAGnsgO9XyY/XSB2zvyN07j4xjReBXVdtA/edit?utm_content=DAGnsgO9XyY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
 - Analysis Tabbleau [Download](https://github.com/Nook11/cp372-NT_ST/blob/main/project_tableau.twbx)
 - Document ฉบับเต็ม [Download](https://docs.google.com/document/d/15wYYGy-FgXfh8HuWQqOKpWPacqF3MeeL2HMy5mgzo_s/edit?usp=sharing)
-- Presentation Video [Download](./Data_Set_nike_sales_2024.xlsx)
+- Presentation Video [Download](https://youtu.be/-dV6PIDth_U)
 
   
 ## Data Set
